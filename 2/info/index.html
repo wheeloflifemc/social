@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Information</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('https://wheeloflifemc.github.io/img/banner.png');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: left;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+            backdrop-filter: blur(5px);
+        }
+
+        h1,
+        h2 {
+            color: white;
+        }
+
+        button {
+            background: linear-gradient(to right, #e62328, #32aa4f, #b6dc2b);
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Event info:</h1>
+        <h2>March 23, 2024 @ 12:00 AM EST - March 23, 2024 @ 3:00 PM EST</h2>
+        <button onclick="window.location.href='https://wheeloflifemc.github.io/social/2/addtogcal'">Add to Google Cal</button>
+    </div>
+</body>
+
+</html>
