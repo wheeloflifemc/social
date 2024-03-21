@@ -23,7 +23,7 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            text-align: left;
+            text-align: center;
             background-color: rgba(0, 0, 0, 0.5);
             padding: 20px;
             border-radius: 10px;
@@ -36,12 +36,18 @@
         }
 
         button {
-            background: linear-gradient(to right, #e62328, #32aa4f, #b6dc2b);
+            background: linear-gradient(to right, #007bff, #ffcc00, #28a745);
             color: white;
             padding: 10px 20px;
             border: none;
             border-radius: 5px;
             cursor: pointer;
+        }
+
+        .squircle {
+            background-image: linear-gradient(to right, #007bff, #ffcc00, #28a745);
+            border-radius: 20px;
+            padding: 10px;
         }
     </style>
 </head>
@@ -50,7 +56,9 @@
     <div class="container">
         <h1>Event info:</h1>
         <h2>March 23, 2024 @ 12:00 AM EST - March 23, 2024 @ 3:00 PM EST</h2>
-        <button onclick="window.location.href='https://wheeloflifemc.github.io/social/2/addtogcal'">Add to Google Cal</button>
+        <div class="squircle">
+            <a href="https://wheeloflifemc.github.io/social/2/addtogcal/" target="_blank"><img src="https://ssl.gstatic.com/calendar/images/dynamiclogo_2020q4/calendar_31_2x.png"alt="Add toGoogle Calendar"></a>
+        </div>
     </div>
 </body>
 
