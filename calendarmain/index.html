@@ -1,9 +1,7 @@
 <script>
   function redirpopup() {
-    const confirmation = confirm("A google account is required to add the calendar, continue?")
-    if (confirmation) {
-      location.replace("https://calendar.google.com/calendar/u/0?cid=MWE2MDRhYmZiMzU5YTEwN2M5Nzc4NDRjYTZjMmViZGRiMjRkMjg4OWU4YWU0ZjBjZDBhNjNhMmQ0OGMzODYwZkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t");
-    }
-  window.onload = redirpopup()
+    confirm("A google account is required to add the calendar, continue?")
+    location.replace("https://calendar.google.com/calendar/u/0?cid=MWE2MDRhYmZiMzU5YTEwN2M5Nzc4NDRjYTZjMmViZGRiMjRkMjg4OWU4YWU0ZjBjZDBhNjNhMmQ0OGMzODYwZkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t");
   }
+  window.onload = redirpopup()
 </script>
